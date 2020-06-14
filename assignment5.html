@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="app.js">
+
+    </script>
+    <script>
+        alert("Iam using Alert in this Html head section!  \n CHAPTER:1 This is task 7")
+      </script>
+</head>
+<body>
+    <script>
+        alert("Iam using Alert inside pages's html!  \n CHAPTER:1 This is task 7(part3)")
+  
+ </script>    
+ 
+ <br>
+ <select id="select" >
+     <option value="Mobile">Mobile</option>
+     
+   </select>
+
+
+ 
+
+
+</body>
+</html>
+<script>
+    alert("Iam using Alert after pages's html!  \n CHAPTER:1 This is task 7(part4)")
+
+</script>  
+
+<h3>Above task is from Chapter14-16 This is task 15 </h3>
+<script>
+  
+    var select = document.getElementById("select"),
+   mobile = ["Apple", "Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
+
+
+   for (i = 0; i<mobile.length; i++){
+
+
+      var option =  document.createElement("option"),
+      txt = document.createTextNode(mobile[i]);
+
+      option.appendChild(txt);
+      select.insertBefore(option,select.lastChild);
+
+
+   }
+</script>
